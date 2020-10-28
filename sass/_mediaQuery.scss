@@ -1,0 +1,74 @@
+/* Media Mobile */
+@media only screen and (max-width:475px) {
+
+    .foto-fondo-sprint {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      vertical-align: middle;
+      width: 100%;
+  
+    }
+  
+    .seccion {
+      padding: 0px 10px;
+      font-size: 10px;
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      width: 50px;
+      padding-bottom: 5px;
+    }
+  
+    .primerTitulo{
+      font-size: 19px;
+      top: -2px;
+      font-family: 'Montserrat', sans-serif;
+  
+    }
+    .parrafoUno {
+      position: absolute;
+      padding: 0px 6px;
+      line-height: 1.4;
+      top: 151px;
+      text-align: inherit;
+      font-family: 'Montserrat', sans-serif;
+      text-shadow: #000 0px 0px 8px;
+    }
+    
+  
+    .menuPrincipal {
+      display: flex;
+      justify-content: center;
+      font-size: 8px;
+    }
+  
+    .parrafoDos {
+      text-align: center;
+      font-size: 12px;
+    }
+    .fotoEntrenadoresSprint{
+      width: 100%;
+    }
+    .photo-grid{
+      width: 100%;
+    }
+    .video-grid {
+      width: 50px;
+    }
+  }
+  
+  /* Fin Media Mobile */
+  
+  
+  /* tablet */
+  @media only screen and (min-width:476px) and (max-width:960px) {
+    .parrafoDos {
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  

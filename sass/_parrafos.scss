@@ -1,0 +1,67 @@
+@import 'variables';
+
+// .primerTitulo {
+//     font-family: $Font-general;
+//     text-align: $text-align;
+//     float: none;
+//     color: #FFF;
+//     position: absolute;
+//     top: 206px;
+//     display: flex;
+//     justify-content: $text-align;
+//     font-size: 25px;
+//   }
+  
+  
+  
+  .parrafoUno {
+    text-align: $text-align;
+    font-family: $Font-general;
+    position: absolute;
+    top: 494px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: black 0px 0px 6px;
+    letter-spacing: 3px;  
+    background-color: rgba(63, 61, 61, 0.6);
+  }
+  
+  .cajaTitulo {
+    border: 30px;
+  }
+  
+  .tituloDos {
+    text-align: $text-align;
+    font-family: $Font-general;
+    margin-top: -10px;
+  }
+
+  .cajaParrafo {
+    height: 100%;
+    width: 100%;
+    
+  
+  }
+  
+   .parrafoDos {
+   text-align: $text-align;
+   font-family: $Font-general;
+    color: #FFF;
+    text-shadow: black 0px 0px 6px;
+    font-size: 25px;
+  }
+
+  .tituloVideo {
+    text-align: $text-align;
+    font-family: $Font-general;
+    font-size: 19px;
+  }
+
+  .tituloTres {
+    text-align: $text-align;
+    color: #FFF;
+    font-family: $Font-general;
+  }
+  

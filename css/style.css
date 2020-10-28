@@ -1,0 +1,347 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menuPrincipal {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: x-large;
+  background-color: #FFF;
+}
+
+.menuPrincipal li {
+  display: inline;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.menuPrincipal ul li:hover {
+  background-color: black;
+}
+
+.menuPrincipal ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menuPrincipal ul li a:hover {
+  color: white;
+}
+
+/* Media Mobile */
+@media only screen and (max-width: 475px) {
+  .foto-fondo-sprint {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .seccion {
+    padding: 0px 10px;
+    font-size: 10px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50px;
+    padding-bottom: 5px;
+  }
+
+  .primerTitulo {
+    font-size: 19px;
+    top: -2px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .parrafoUno {
+    position: absolute;
+    padding: 0px 6px;
+    line-height: 1.4;
+    top: 151px;
+    text-align: inherit;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: #000 0px 0px 8px;
+  }
+
+  .menuPrincipal {
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+  }
+
+  .parrafoDos {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .fotoEntrenadoresSprint {
+    width: 100%;
+  }
+
+  .photo-grid {
+    width: 100%;
+  }
+
+  .video-grid {
+    width: 50px;
+  }
+}
+/* Fin Media Mobile */
+/* tablet */
+@media only screen and (min-width: 476px) and (max-width: 960px) {
+  .parrafoDos {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+.parrafoUno {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 494px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #FFF;
+  text-shadow: black 0px 0px 6px;
+  letter-spacing: 3px;
+  background-color: rgba(63, 61, 61, 0.6);
+}
+
+.cajaTitulo {
+  border: 30px;
+}
+
+.tituloDos {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -10px;
+}
+
+.cajaParrafo {
+  height: 100%;
+  width: 100%;
+}
+
+.parrafoDos {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #FFF;
+  text-shadow: black 0px 0px 6px;
+  font-size: 25px;
+}
+
+.tituloVideo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+}
+
+.tituloTres {
+  text-align: center;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* comienzo Contacto*/
+.fotoContacto {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contenedorFoto {
+  margin: 0 auto;
+}
+
+.tituloContacto {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+/* pagina metodologia */
+.tituloMetod {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.parrafoMetod {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: rgba(63, 61, 61, 0.6);
+  border: 2px solid gray;
+  border-width: 100%;
+}
+
+.videoMetod {
+  width: 500px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.videoMetod2 {
+  width: 500px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.video-grid-content  {
+  display: flex;
+  justify-content: space-around;
+}
+
+.video-grid, .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Fin Metodologia*/
+/*Comienza pagina de Entrenadores*/
+.tituloEntrenadores {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border: 12px solid black;
+  padding: 30px;
+  background-color: #FFF;
+}
+
+.fotoSprint {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
+  background-color: black;
+  margin-top: -33px;
+}
+
+.entrenadoresInfo {
+  border: 12px solid black;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #0a0a0a;
+  background-color: #FFF;
+}
+
+.card-group {
+  margin-top: -56px;
+}
+
+.videoUno {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.videoContenido {
+  width: 100%;
+  height: 300px;
+}
+
+.img-body {
+  background-image: url(../Imagenes/Imagen-Fondo/imagen-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  width: 156px;
+  padding-bottom: 5px;
+  clip-path: circle(77px at center);
+}
+
+.logoUbicacion {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 156px;
+  padding-bottom: 5px;
+  clip-path: circle(77px at center);
+}
+
+/* aca terminanel menu*/
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-fondo-sprint {
+  width: 90%;
+}
+
+.fotoFondo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  background-color: rgba(63, 61, 61, 0.6);
+}
+
+.seccion {
+  background-color: black;
+  color: #FFF;
+}
+
+.redesItem {
+  list-style: none;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-sprint {
+  margin-bottom: 10px;
+}
+
+.footer-media {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom, black, white);
+  box-sizing: inherit;
+  padding-bottom: 50px;
+}
+
+.imgBanner {
+  width: 100%;
+}
+
+.ubicacionFoto {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.cajaUbicacion {
+  background-color: #FFF;
+}
+
+.mapaDsc {
+  display: flex;
+  justify-content: left;
+}
+
+/*# sourceMappingURL=style.css.map */

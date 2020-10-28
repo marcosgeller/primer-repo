@@ -1,0 +1,29 @@
+.menuPrincipal {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: x-large;
+    background-color: #FFF;
+  
+  }
+  
+  .menuPrincipal li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+  
+  }
+  
+  .menuPrincipal ul li:hover {
+    background-color: black;
+  }
+  
+  .menuPrincipal ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menuPrincipal ul li a:hover {
+    color: white;
+  
+  }

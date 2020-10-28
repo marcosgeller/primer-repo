@@ -1,0 +1,72 @@
+.img-body {
+    background-image: url(../Imagenes/Imagen-Fondo/imagen-fondo.jpg);
+    background-repeat:no-repeat  ;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    width: 156px;
+    padding-bottom: 5px;
+    clip-path: circle(77px at center);
+  }
+  .logoUbicacion{  
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 156px;
+    padding-bottom: 5px;
+    clip-path: circle(77px at center);
+}
+  
+  /* aca terminanel menu*/
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .foto-fondo-sprint{
+    width: 90%;
+    
+    
+  }
+  .fotoFondo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: rgba(63, 61, 61, 0.6);
+   
+  }
+
+  .seccion {
+    background-color: black;
+    color: #FFF; 
+  }
+
+  .redesItem {
+    list-style: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .section-sprint {
+    margin-bottom: 10px;
+  }
+  
+  .footer-media {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom,black, white);
+    box-sizing: inherit;
+    padding-bottom: 50px;
+    
+  }
+  
