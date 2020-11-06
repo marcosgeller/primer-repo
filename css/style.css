@@ -65,7 +65,8 @@
     position: absolute;
     padding: 0px 6px;
     line-height: 1.4;
-    top: 151px;
+    font-size: 9px !important;
+    top: 145px !important;
     text-align: inherit;
     font-family: "Montserrat", sans-serif;
     text-shadow: #000 0px 0px 8px;
